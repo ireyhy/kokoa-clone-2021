@@ -1,0 +1,103 @@
+
+
+.recommended-friends{
+    border-top: var(--main-border);
+    border-bottom: var(--main-border);
+    padding: 20px 0px;
+    margin: 25px 0px;
+}
+.recommended-friends__title{
+    font-size: 14px;
+    color: var(--text-color);
+}
+.recommended-friends span{
+    margin:50px 0px;
+    text-align: center;
+    display: block;
+    color: var(--text-color);
+    font-size: 15px;
+}
+.find-box{
+    display:flex;
+    justify-content:space-evenly;
+    margin-top: 30px;
+}
+.find-weather{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    width: 140px;
+    height: 140px;
+    border-radius: 20%;
+    padding: 10px;
+    margin-right: 6px;
+    animation: widget 1s ease-in-out ;
+    box-shadow: 1px 9px 16px 1px rgba(0, 0, 0, 0.3);
+}
+@keyframes widget{
+    0%{
+        transform: none;
+    }
+    50%{
+        transform: rotatey(15deg);
+    }
+    100%{
+        transform: none;
+    }
+}
+.find-weather span{
+    margin-bottom: 4px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
+}
+.find-weather span:first-child{
+    font-size: 16px;
+    margin-top: 5px;
+}
+.find-weather span:nth-child(2){
+    font-size: 40px;
+}
+.find-weather span:nth-child(3){
+    font-size: 19px;
+    color:yellow;
+    margin-left: 3px;
+}
+.fa-map-marker-alt{
+    margin-left: 4px;
+    font-size:15px;
+    color:rgba(0, 0, 0, 0.5);
+}
+.find-dday{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 140px;
+    height: 140px;
+    border-radius: 20%;
+    box-shadow: 1px 9px 16px 1px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    color: rgba(0, 0, 0, 0.6);
+    animation: widget 1s ease-in-out ;
+}
+.find-dday span:first-child{
+    font-size: 20px;
+}
+.find-dday span:nth-child(2){
+    font-size: 40px;
+}
+
+.find-more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(247, 247, 247);
+    margin: 14px 0px;
+    margin-top:25px;
+    height: 55px;
+    border-radius: 20px;
+    color:rgba(0, 0, 0, 0.7);
+    
+}
