@@ -1,0 +1,15 @@
+
+.badge{
+    background-color: rgb(255, 127, 52);
+    color:ivory;
+    width: 25px;
+    height: 25px;
+    border-radius: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+.nav__link .badge{
+    border-radius: 50%;
+}

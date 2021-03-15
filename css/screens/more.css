@@ -1,0 +1,72 @@
+.more-screen .icon-rows{
+    margin-top: 35px;
+}
+.kakaopay{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 23px;
+    padding: 0px 8px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding-bottom: 16px;
+}
+.kakaopay-left{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    border:1px solid rgba(0, 0, 0, 0.2);
+    width: 150px;
+    height: 30px;
+    border-radius: 35px;
+}
+.kakaopay-left--pay{
+    position: relative;
+}
+
+.kakaopay-left--pay span{
+    position: absolute;
+    top:-2px;
+    margin-left: 3px;
+    font-weight: 800;
+    
+}
+.kakaopay-left span:nth-child(2){
+    margin-left: 5px;
+    font-size: 16px;
+}
+.kakaopay-right{
+    display: flex;
+    width:33%;
+    align-items: center;
+    justify-content:space-between;
+}
+.more-suggestions{
+    margin-top:30px;
+    border-top: var(--main-border);
+    padding-top: 30px;
+}
+.more-suggestions__title{
+    margin-bottom: 30px;
+}
+.more-suggestions__array{
+    display: flex;
+    justify-content:flex-start;
+}
+/*하단바 시작*/
+.more-suggestions__icon-image img{
+ width: 50px;
+ height: 50px;
+ border-radius: 10px;margin-bottom: 5px;
+}
+.more-suggestions__icons{
+    display: flex;
+}
+.more-suggestions__icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right:30px;
+}
+.more-suggestions__icon-text{
+    font-size:13px;
+}

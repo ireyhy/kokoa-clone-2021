@@ -1,0 +1,33 @@
+.chat__link{
+    position: relative;
+    display: flex;
+    justify-content: start;
+}
+.chat__update{
+    color: rgb(255, 127, 52);
+    font-size: 35px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    display: flex;
+    position: absolute;
+    left:40px;
+    bottom: 36px;
+}
+.openchat__link{
+    position: relative;
+    display: flex;
+    justify-content:start;
+    margin-left:-40px;
+}
+.openchat__update{
+    color: rgb(255, 127, 52);
+    font-size: 35px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    display: flex;
+    position: absolute;
+    left:78px;
+    bottom: 36px;
+}
